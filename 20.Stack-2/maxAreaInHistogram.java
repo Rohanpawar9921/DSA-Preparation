@@ -1,8 +1,5 @@
-
 import java.util.Stack;
-
 public class maxAreaInHistogram {
-
     public static int maxArea(int arr[]){
         int maxArea = 0;
         Stack<Integer> s = new Stack<>();
