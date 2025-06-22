@@ -8,6 +8,7 @@ public class cheakSortedOfArray {
         }
         return check(arr, i+1);
     }
+    
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5, 6};
         System.err.println(check(arr, 0));

@@ -1,5 +1,4 @@
 
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -119,7 +118,6 @@ public class BinaryTreeB {
             return leftSum + rightSum + root.data;
         }
 
-
         //O(n^2) - inefficiant
         public static int diameter(Node root){
             if(root == null){
@@ -137,7 +135,7 @@ public class BinaryTreeB {
             return maxDia;
         }
 
-        //O(n)
+        //O(n) - hight and diameter calculated in same function
         static class Info {
             int dia;
             int ht;
@@ -158,11 +156,7 @@ public class BinaryTreeB {
             int selfHight = Math.max(leftInfo.ht, rightInfo.ht) + 1;
 
             return new Info(selfDia, selfHight);
-
-        }
-
-        
-
+        } 
     }
 
      static boolean isSubTree(Node root, Node subRoot){

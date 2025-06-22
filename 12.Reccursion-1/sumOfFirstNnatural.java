@@ -5,7 +5,6 @@ public class sumOfFirstNnatural {
         }
         int sum = n + printSum(n - 1);
         return sum;
-
     }
     public static void main(String[] args) {
         System.out.println(printSum(5));
