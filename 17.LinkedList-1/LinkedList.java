@@ -128,7 +128,7 @@ public class LinkedList {
         return value;
     }
 
-    //recursive search
+    //iterative search
     public int searchIterative(int target){
         Node temp = head;
         int count = 0;
