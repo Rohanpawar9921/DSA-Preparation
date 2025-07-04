@@ -22,7 +22,7 @@ public class CheckMirrorTree {
             return true;
         }
 
-        int 
+        
     }
     public static void main(String[] args) {
         Node root1 = new Node(1);
